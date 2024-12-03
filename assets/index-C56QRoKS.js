@@ -51,4 +51,18 @@ Error generating stack: `+u.message+`
 - Так и у вас.`,`Живу вместе с парнем. С его родителями незнакома. На днях было отличное настроение. Придя домой, с порога ору:
 - Красавчик, готовь свой член, тебя ждёт незабываемый минет! У меня сегодня шикарное настроение!
 Но кто же, блин, знал, что его родители в это время сидели на кухне? Парень весь покраснел, у мамы глаза на лоб, а папа спокойно сказал:
-- У Вас тире короткое`],Va=v=>v.replace(/^-/gm,"—"),ld=()=>{const v=Ua[Math.floor(Math.random()*Ua.length)],[_,p]=wr.useState(""),[O,D]=wr.useState(""),[V,ne]=wr.useState(!1),te=fe=>{const de=fe.target.value;p(de),D(Va(de))},U=()=>{navigator.clipboard.writeText(O).then(()=>{ne(!0),setTimeout(()=>ne(!1),2e3)}).catch(fe=>console.error("Ошибка копирования:",fe))};return hn.jsxs("div",{className:"container",children:[hn.jsx("h1",{className:"header",children:"У вас тире короткое"}),hn.jsx("textarea",{className:"input",value:_,onChange:te,placeholder:v}),hn.jsx("div",{className:"output",children:O||hn.jsx("div",{className:"placeholder-result",children:Va(v)})}),hn.jsx("button",{onClick:U,disabled:!O,children:hn.jsx(rd,{size:20})}),V&&hn.jsx("div",{className:"toast",children:"Текст скопирован!"})]})};Xf.createRoot(document.getElementById("root")).render(hn.jsx(wr.StrictMode,{children:hn.jsx(ld,{})}));
+- У Вас тире короткое`,`Стоят панк с бабкой на остановке и бабка спрашивает:
+- Куда двоечка едет, милок?
+- Тебе в бороду, бабуль.
+Остановку озарила вспышка в бороде у бабки была противопехотная мина.`,`Наташа на балу тихонько шепчет Ржевскому:
+- Знаете, поручик, папенька уехал в деревню, и я сегодня ночью буду дома совсем одна...
+- Хорошо, наверное, быть дома ночью одной.
+- А спать я буду в такой большой мягкой постели...
+- Хорошо, наверное, спать в большой мягкой постели...
+Наташа, краснея:
+- Знаете, я буду спать совершенно голая...
+- Хорошо, наверное, спать совершенно голой...
+Наташа, не выдерживая, громким шепотом:
+- Ржевский, приходите сегодня ко мне ебаться!
+Ржевский (загадочно):
+- Не)`],Va=v=>v.replace(/^-/gm,"—"),ld=()=>{const v=Ua[Math.floor(Math.random()*Ua.length)],[_,p]=wr.useState(""),[O,D]=wr.useState(""),[V,ne]=wr.useState(!1),te=fe=>{const de=fe.target.value;p(de),D(Va(de))},U=()=>{navigator.clipboard.writeText(O).then(()=>{ne(!0),setTimeout(()=>ne(!1),2e3)}).catch(fe=>console.error("Ошибка копирования:",fe))};return hn.jsxs("div",{className:"container",children:[hn.jsx("h1",{className:"header",children:"У вас тире короткое"}),hn.jsx("textarea",{className:"input",value:_,onChange:te,placeholder:v}),hn.jsx("div",{className:"output",children:O||hn.jsx("div",{className:"placeholder-result",children:Va(v)})}),hn.jsx("button",{onClick:U,disabled:!O,children:hn.jsx(rd,{size:20})}),V&&hn.jsx("div",{className:"toast",children:"Текст скопирован!"})]})};Xf.createRoot(document.getElementById("root")).render(hn.jsx(wr.StrictMode,{children:hn.jsx(ld,{})}));
