@@ -17,11 +17,11 @@ body {
   width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.2);  /* Стеклянный эффект */
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(25px);
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  overflow: hidden; /* Убираем горизонтальный скролл */
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -31,12 +31,12 @@ body {
 }
 
 
-h1 {
+.header {
   color: #f8fe34;
   font-size: 24px;
 }
 
-textarea {
+.input {
   width: 100%;
   height: 300px;
   padding: 15px;
@@ -52,11 +52,11 @@ textarea {
   backdrop-filter: blur(10px);
 }
 
-textarea:focus {
+.input:focus {
   border: 2px solid rgba(180, 180, 180, 0.98)
 }
 
-textarea::placeholder {
+.input::placeholder {
   color: rgba(173, 173, 173, 0.49)
 }
 
@@ -65,12 +65,12 @@ textarea::placeholder {
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  /* min-height: 100px; */
   height: 300px;
   color: #383838;
   backdrop-filter: blur(10px);
-  white-space: pre-wrap; /* Сохраняем переносы строк */
-  word-wrap: break-word; /* Переносим длинные слова */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
 }
 .placeholder-result {
   color: rgba(60, 60, 60, 0.616);

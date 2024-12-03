@@ -35,8 +35,9 @@ const App: React.FC = () => {
 
   return (
     <div className="container">
-      <h1>У вас тире короткое</h1>
+      <h1 className="header">У вас тире короткое</h1>
       <textarea
+        className="input"
         value={inputText}
         onChange={handleInputChange}
         placeholder={randomExample}
