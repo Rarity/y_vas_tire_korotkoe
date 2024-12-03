@@ -1,9 +1,12 @@
 {
   "name": "y_vas_tire_korotkoe",
+  "homepage": "https://rarity.github.io/y_vas_tire_korotkoe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -22,6 +25,7 @@
     "eslint": "^9.15.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.2.0",
     "globals": "^15.12.0",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.15.0",
