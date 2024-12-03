@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+# Конвертер анекдотов с удлинителем тире 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Получай Mattermost 👊 — с длинными тире!**  
+Этот сервис помогает форматировать анекдоты, чтобы они выглядели идеально и не превращались в списки.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📜 ПРОБЛЕМКА:
+В Mattermost короткие тире (`-`) в начале строк превращают диалоги в списки. Конвертер решает эту проблему, превращая короткие тире в длинные (`—`).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 🎯 Функции:
+- 🚀 **Автоматическая замена тире** — конвертирует `-` в `—` только в начале строк.
+- 💡 **Примеры анекдотов** — предустановленные шаблоны для демонстрации работы.
+- 🤩 **современный и стильный интерфейс.** — 
+- 📋 **Копирование в буфер** — быстрое копирование результата одним кликом.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 🔧 Как использовать:
+1. Вставьте текст с анекдотом в поле ввода.
+2. Получите форматированный результат в режиме реального времени.
+3. Нажмите на иконку копирования, чтобы скопировать текст в буфер обмена.
+
+---
+
+### 🖼️ Пример:
+
+**Ввод:**
+```text
+- Тебя когда-нибудь будили минетом?
+- Да.
+- И как ты отреагировал?
+- А говорить я не мог.
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+**Вывод:**
 ```
+— Тебя когда-нибудь будили минетом?
+— Да.
+— И как ты отреагировал?
+— А говорить я не мог.
+```
+
+Теперь никакой вонючий Mattermost не испортит анекдот!
+У вас тире короткое? Это поправимо! 🛠️
