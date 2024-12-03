@@ -1,6 +1,3 @@
-
-
-
 body {
   font-family: Arial, sans-serif;
   background-image: url("./assets/bg.jpg");
@@ -28,7 +25,9 @@ body {
 }
 
 @media (max-width: 768px) {
-  width: 390px
+  .container {
+    width: 390px;
+  }
 }
 
 
